@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Grade Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Student Grade Calculator</h2>
+        <div class="form">
+            <form action="post" onsubmit="return false;">
+                <div class="subjects">
+                    <label for="chemistry">Chemistry</label>
+                    <!-- <br>-->
+                    <input type="text" id="chemistry" placeholder="Enter chemistry marks...">
+                </div>
+                <div class="subjects">
+                    <label for="maths">Maths</label>
+                    <!-- <br> -->
+                    <input type="text" id="maths" placeholder="Enter maths marks...">
+                </div>
+                <div class="subjects">
+                    <label for="physics">Physics</label>
+                    <!-- <br> -->
+                    <input type="text" id="physics" placeholder="Enter physics marks...">
+                </div>
+                <div class="subjects">
+                    <label for="hindi">Hindi</label>
+                    <!-- <br> -->
+                    <input type="text" id="hindi" placeholder="Enter hindi marks...">
+                </div>
+                <div class="subjects">
+                    <label for="english">English</label>
+                    <!-- <br> -->
+                    <input type="text" id="english" placeholder="Enter english marks...">
+                </div>
+                
+            </form>
+            <div class="btn">
+                <button id="calculate"  onclick="calculate()">Calculate</button>
+            </div>
+            <div id="space">
+                
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
